@@ -20,7 +20,7 @@ func fizzBuzz001(start int, end int, fizz int, buzz int) {
 	}
 }
 
-// sieve without mod
+// based on Sieve of Eratosthenes
 func fizzBuzz002(start int, end int, fizz int, buzz int) {
 	list := make([]string, end-start+1)
 
